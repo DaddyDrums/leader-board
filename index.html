@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leaderboard</title>
+    <style>
+        .leaderboard-row {
+            display: none;
+        }
+
+        .visible {
+            display: table-row;
+        }
+    </style>
+</head>
+<body>
+    <table id="leaderboard">
+        <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Score</th>
+        </tr>
+        <!-- rows will be dynamically added here -->
+    </table>
+
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+
+    <script src="leaderboard.js"></script>
+</body>
+</html>
